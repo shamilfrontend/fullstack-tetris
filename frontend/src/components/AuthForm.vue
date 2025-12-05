@@ -1,6 +1,7 @@
 <script setup>
 import {ref, reactive} from 'vue';
 import {useRouter} from 'vue-router';
+
 import {useAuthStore} from '../store/authStore';
 
 const router = useRouter();
@@ -196,4 +197,3 @@ h2 {
 	}
 }
 </style>
-
