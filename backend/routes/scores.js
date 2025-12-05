@@ -1,4 +1,5 @@
 import express from 'express';
+
 import { submitScore, getTopScores, getMyScores } from '../controllers/scoreController.js';
 import { authenticate } from '../middleware/auth.js';
 
@@ -9,4 +10,3 @@ router.get('/top', getTopScores);
 router.get('/my', authenticate, getMyScores);
 
 export default router;
-

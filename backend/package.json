@@ -8,7 +8,11 @@
     "start": "node app.js",
     "dev": "node --watch app.js"
   },
-  "keywords": ["tetris", "game", "backend"],
+  "keywords": [
+    "tetris",
+    "game",
+    "backend"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -20,4 +24,3 @@
     "dotenv": "^16.3.1"
   }
 }
-
